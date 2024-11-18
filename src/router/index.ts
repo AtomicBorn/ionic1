@@ -46,8 +46,22 @@ const routes: Array<RouteRecordRaw> = [
         path: '/card',
         name: "card",
         component: () => import('@/views/card/index.vue')
+      },
+      {
+        path: '/swiper',
+        name: "swiper",
+        component: () => import('@/views/swiper/index.vue')
+      },
+      {
+        path: '/loop',
+        name: "loop",
+        component: () => import('@/views/loop/index.vue')
+      },
+      {
+        path: '/localstorage',
+        name: "localstorage",
+        component: () => import('@/views/localstorage/index.vue')
       }
-
     ]
   }
 ]

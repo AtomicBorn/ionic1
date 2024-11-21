@@ -61,6 +61,30 @@
                     </ion-label>
                 </ion-item>
             </ion-list>
+            <ion-list>
+                <ion-item routerLink="/map">
+                    <ion-label>
+                        <h2>Activity 4: Map Implementation</h2>
+                        <p><small>Learn how to implement map in ionic.</small></p>
+                    </ion-label>
+                </ion-item>
+            </ion-list>
+            <ion-list>
+                <ion-item routerLink="/gps">
+                    <ion-label>
+                        <h2>Activity 5: GPS | Geolocation</h2>
+                        <p><small>Get Latitude and Longitude.</small></p>
+                    </ion-label>
+                </ion-item>
+            </ion-list>
+            <ion-list>
+                <ion-item routerLink="/camera">
+                    <ion-label>
+                        <h2>Activity 6: Camera Implementation</h2>
+                        <p><small>Learn how to implement camera in ionic.</small></p>
+                    </ion-label>
+                </ion-item>
+            </ion-list>
         </ion-content>
     </ion-page>
 </template>

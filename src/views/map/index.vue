@@ -22,7 +22,7 @@ export default defineComponent({
     components: { IonToolbar, IonTitle, IonPage, IonHeader, IonContent, IonFooter },
     data() {
         return {
-            apiKey: 'AIzaSyA7nyAevnZcR1GncVAydyO9Nkip0JCBnb8'
+            apiKey: 'PRIVATE'
         }
     },
     methods: {
